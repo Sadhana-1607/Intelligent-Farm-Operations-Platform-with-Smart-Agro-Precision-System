@@ -1,0 +1,75 @@
+# ==============================
+# React Frontend
+# ==============================
+
+farm-verse-front/node_modules/
+farm-verse-front/dist/
+farm-verse-front/build/
+farm-verse-front/coverage/
+
+farm-verse-front/.env
+farm-verse-front/.env.local
+farm-verse-front/.env.development.local
+farm-verse-front/.env.test.local
+farm-verse-front/.env.production.local
+
+farm-verse-front/npm-debug.log*
+farm-verse-front/yarn-debug.log*
+farm-verse-front/yarn-error.log*
+
+
+# ==============================
+# Java Backend
+# ==============================
+
+FarmVerse/intelligentFarmOperationPlatform/target/
+FarmVerse/intelligentFarmOperationPlatform/*.class
+
+# Maven wrapper generated file
+FarmVerse/intelligentFarmOperationPlatform/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot configuration containing secrets
+FarmVerse/intelligentFarmOperationPlatform/src/main/resources/application.properties
+
+
+# ==============================
+# Eclipse
+# ==============================
+
+FarmVerse/.metadata/
+
+FarmVerse/intelligentFarmOperationPlatform/.classpath
+FarmVerse/intelligentFarmOperationPlatform/.project
+FarmVerse/intelligentFarmOperationPlatform/.settings/
+FarmVerse/intelligentFarmOperationPlatform/.factorypath
+FarmVerse/intelligentFarmOperationPlatform/.springBeans
+FarmVerse/intelligentFarmOperationPlatform/.sts4-cache
+
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+
+# ==============================
+# OS / Misc
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+*.log
+
+.env

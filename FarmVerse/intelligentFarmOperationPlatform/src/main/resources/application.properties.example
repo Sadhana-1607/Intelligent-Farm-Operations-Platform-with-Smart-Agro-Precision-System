@@ -1,0 +1,25 @@
+spring.application.name=intelligentFarmOperationPlatform
+
+server.port=9696
+
+# PostgreSQL
+spring.datasource.url=jdbc:postgresql://localhost:5432/farmdb
+spring.datasource.username=YOUR_POSTGRES_USERNAME
+spring.datasource.password=YOUR_POSTGRES_PASSWORD
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA / Hibernate
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Hugging Face API
+huggingface.api.url=YOUR_HUGGINGFACE_API_URL
+huggingface.api.key=YOUR_HUGGINGFACE_API_KEY
+huggingface.model.id=YOUR_HUGGINGFACE_MODEL_ID
+
+# Google AI Studio (Gemini API)
+#gemini.api.url=YOUR_GEMINI_API_URL
+#gemini.api.key=YOUR_GEMINI_API_KEY
+#gemini.model.id=YOUR_GEMINI_MODEL_ID
